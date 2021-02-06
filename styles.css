@@ -1,0 +1,109 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Document-wide / general elements */
+
+body {
+    background-color: #1c1c1c;
+    color: #dedede;
+    padding: 20pt;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #dedede;
+    text-decoration: none
+}
+
+a.link {
+    color: #a2c5f3;
+}
+
+p {
+    margin: 0 0 10px 0;
+    width: 60ch;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header section */
+
+.title {
+    font-weight: 600;
+    font-size: 20pt;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+.sep {
+    width: 500px;
+    margin: 15pt 0;
+    border-top: 2pt solid #9d1212;
+}
+
+/* Cards */
+
+.card {
+    margin: auto;
+    background-color: #206ba2;
+    border-radius: 20pt;
+    padding: 30px;
+    font-weight: 500;
+    box-sizing: border-box;
+    width: 600px;
+    text-align: center;
+}
+
+.card p {
+    width: auto
+}
+
+.card.error {
+    background-color: #9d1212;
+}
+
+/* Footer styles */
+
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #2f2f2f;
+    padding: 20pt;
+}
+
+footer p {
+    width: auto;
+}
+
+footer i {
+    font-size: 9pt;
+    position: relative;
+    top: -1pt;
+    width: 12pt;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    display: block;
+    float: right;
+    padding-right: 40pt;
+}
